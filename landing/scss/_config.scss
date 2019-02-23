@@ -1,0 +1,30 @@
+$primary: #40BFBD;
+$secondary: #40BF71;
+
+$main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+//Media queries
+@mixin mediaSmall {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMedium {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLarge {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXLarge {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}

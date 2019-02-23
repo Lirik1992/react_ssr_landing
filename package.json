@@ -1,0 +1,19 @@
+{
+  "name": "react_lp_ssr",
+  "version": "1.0.0",
+  "description": "React with ssr of landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/app.js",
+    "sass": "node-sass -w ./landing/scss/ -o ./landing/style/ --recursive"
+  },
+  "author": "Dmitry Likharev",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-minify-html": "^0.12.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
