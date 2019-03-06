@@ -1,8 +1,24 @@
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('../../client/assets/fonts/Montserrat-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../../client/assets/fonts/Montserrat-Light.ttf');
+}
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../../client/assets/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../../client/assets/fonts/Montserrat-SemiBold.ttf');
+}
+
 $primary: #40BFBD;
 $secondary: #40BF71;
-
-$main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+$main-font: 'Montserrat Regular';
+$base-size: 10px;
 
 //Media queries
 @mixin mediaSmall {

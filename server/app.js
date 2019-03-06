@@ -4,7 +4,7 @@ const app = express();
 const settings = require("./settings/config");
 var minifyHTML = require("express-minify-html");
 
-app.set("views", "./landing");
+app.set("views", "../landing");
 
 app.use(
   minifyHTML({
@@ -21,7 +21,7 @@ app.use(
   })
 );
 
-app.use(express.static(path.join(__dirname, "./landing")));
+app.use(express.static(path.join(__dirname, "../landing")));
 app.get("/", (req, res) => {
   res.render("index");
 });

@@ -1,7 +1,12 @@
 @import "config";
 
-html,
-body {
+html {
+  font-family: $main-font;
+  font-size: $base-size;
   margin: 0;
   padding: 0;
+
+  body {
+    font-size: 1.6rem;
+  }
 }
