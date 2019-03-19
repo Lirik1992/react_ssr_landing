@@ -1,23 +1,24 @@
 @font-face {
-  font-family: 'Montserrat-ExtraBold';
-  src: url('../../client/assets/fonts/Montserrat-ExtraBold.ttf');
+  font-family: "Montserrat-ExtraBold";
+  src: url("../../client/assets/fonts/Montserrat-ExtraBold.ttf");
 }
 @font-face {
-  font-family: 'Montserrat-Light';
-  src: url('../../client/assets/fonts/Montserrat-Light.ttf');
+  font-family: "Montserrat-Light";
+  src: url("../../client/assets/fonts/Montserrat-Light.ttf");
 }
 @font-face {
-  font-family: 'Montserrat Regular';
-  src: url('../../client/assets/fonts/Montserrat-Regular.ttf');
+  font-family: "Montserrat Regular";
+  src: url("../../client/assets/fonts/Montserrat-Regular.ttf");
 }
 @font-face {
-  font-family: 'Montserrat-SemiBold';
-  src: url('../../client/assets/fonts/Montserrat-SemiBold.ttf');
+  font-family: "Montserrat-SemiBold";
+  src: url("../../client/assets/fonts/Montserrat-SemiBold.ttf");
 }
 
-$primary: #40BFBD;
-$secondary: #40BF71;
-$main-font: 'Montserrat Regular';
+$primary: #40bfbd;
+$secondary: #40bf71;
+$main-font: "Montserrat Regular";
+$main-font-bold: "Montserrat-SemiBold";
 $base-size: 10px;
 
 //Media queries
