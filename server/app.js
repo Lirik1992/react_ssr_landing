@@ -23,7 +23,7 @@ app.use(
 
 app.use(express.static(path.join(__dirname, "../landing")));
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("views");
 });
 
 app.use(express.static(path.join(__dirname, "../build")));
