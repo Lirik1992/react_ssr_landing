@@ -2,8 +2,10 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const settings = require("./settings/config");
+const users = require("./routes/users");
 var minifyHTML = require("express-minify-html");
 
+app.use("/users", users);
 app.set("views", "../landing");
 
 app.use(
@@ -27,7 +29,7 @@ app.get("/", (req, res) => {
 });
 
 app.use(express.static(path.join(__dirname, "../build")));
-app.get("/*", (req, res) => {
+app.get("/app", (req, res) => {
   res.sendFile(path.join(__dirname, "../build/index.html"));
 });
 
